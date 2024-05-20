@@ -115,7 +115,7 @@ This script deletes the data present in the various DWH tables
 
 ### Part 3: Building and scheduling the automatic execution of the main job (Job for populating the Operational Data Store and the Data Warehouse).
 
-![Job charge DWH](assets/ChargeDWH.png)
+![Job charge DWH](assets/JAlimentationBDD.png)
 
 
 
