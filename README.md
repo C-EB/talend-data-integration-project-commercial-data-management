@@ -72,5 +72,45 @@ Creation of a directory containing the daily data
   ![Job ods vente](assets/ODS_Vente.png)
 
 - Construction and scheduling of the main job execution
+![Charge ODS](assets/ChargeOds.png)
 
-  
+
+### Part 2:
+#### Step 1: Database ==> PostgreSQL
+
+- Connection to the database: COM_INGESTION_DB
+
+- Execution of SQL scripts:
+
+1. script_create_schema_dwh.sql
+
+Creation of the schema VENTE_DWH
+2. script_create_table_dwh.sql
+
+Creation of the various DWH tables
+3. script_create_table_ods.sql
+
+Updating the ODS_VENTE table
+4. script_insert_context_variable.sql
+
+Inserting data into the CONTEXT table
+5. script_select_table_dwh.sql
+
+This script selects the data inserted into the various tables
+6. script_truncate_table_dwh.sql
+
+This script deletes the data present in the various DWH tables
+
+### Step 2: Data Integration Process ==> Talend
+1. Opening the Talend project: ICOMMERCE_REPORTING
+2. Creating the context group DWH
+3. Creating metadata: Connecting to the database
+4. Creating the DWH jobs
+   ![My Image](images/my-image.png)
+![My Image](images/my-image.png)
+![My Image](images/my-image.png)
+![My Image](images/my-image.png)
+
+6. Creating the main job
+  ![My Image](images/my-image.png)
+
