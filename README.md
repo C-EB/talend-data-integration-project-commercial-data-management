@@ -20,7 +20,7 @@ In this phase, I expanded the PostgreSQL database to include a data warehouse (V
 
 ## data source :
 Six CSV files
-
+![DWH Product](assets/Dwh_Product.png)
 ## ETL process
 ### Extract
 Extracting data from multiple sources (six CSV files)
@@ -45,6 +45,7 @@ Loading data into the target database
 - Creation of the schema ODS_vente_ODS
 - Creation of the schema Params_Log
 - Creation of the various ODS tables
+  ![DWH Product](assets/Dwh_Product.png)
 - Creation of the Context table
 - Insertion of data into the Context table
 #### Step 2:
