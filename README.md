@@ -59,4 +59,16 @@ Creation of a directory containing the daily data
 - Creation of metadata: connection to the database
 - Creation of generic schemas
 - Creation of various ODS jobs (data transformation and loading)
+  ![Job ods sous categorie](assets/SousCategorie.png)
+
+  ![Job ods client](assets/ODS_client.png)
+
+  ![Job ods produit](assets/ODS_Product.png)
+
+  ![Job ods sous categorie](assets/ODS_SousCategorie.png)
+
+  ![Job ods type client](assets/ODS_TypeClient.png)
+
+  ![Job ods vente](assets/ODS_Vente.png)
+
 - Construction and scheduling of the main job execution
