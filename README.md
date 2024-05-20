@@ -20,7 +20,7 @@ In this phase, I expanded the PostgreSQL database to include a data warehouse (V
 
 ## data source :
 Six CSV files
-![CSV files](assets/csv files.png)
+![CSV files](assets/csvfiles.png)
 ## ETL process
 ### Extract
 Extracting data from multiple sources (six CSV files)
