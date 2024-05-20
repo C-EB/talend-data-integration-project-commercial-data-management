@@ -35,9 +35,16 @@ Extracting data from multiple sources (six CSV files)
 ### Load
 Loading data into the target database 
 
+## Tools
+| Tool         | Purpose                            |
+|:------------:|:----------------------------------:|
+| Postgres     | managing ODS and QWH tables        |
+| Talend       | ETL process                        |
+| Github       | Hosting the project documentation  |
+
 ## Development
 
-### Part 1:
+### Part 1
 
 #### Step 1: Database
 
