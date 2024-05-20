@@ -1,24 +1,24 @@
 # talend-data-integration-project-commercial-data-management
-## Objectif 
+## Objective 
 Creation of a Data Integration System in a Data Warehouse
 
 The project consisted of two distinct parts:
 
-### Part 1: Loading the ODS
+#### Part 1: Loading the ODS
 In this phase, I set up a PostgreSQL database (COM_INGESTION_DB) and developed SQL scripts for schema creation, table creation, and data insertion. I carefully managed the ingestion process, ensuring seamless integration of flat files into the database using Talend's powerful data integration capabilities. Key tasks included:
 
 - Creating database schemas (VENTE_ODS and PARAMS_LOG).
 - Configuring and executing SQL scripts for table creation and data insertion.
 - Developing Talend jobs within the ICOMMERCE_REPORTING project for transforming and loading data into the operational data store (ODS).
 - Implementing custom Java code for specialized data processing tasks.
-### Part 2: Loading the DWH
+#### Part 2: Loading the DWH
 In this phase, I expanded the PostgreSQL database to include a data warehouse (VENTE_DWH) for advanced analytics and reporting purposes. Similar to Part 1, I developed SQL scripts for schema creation, table creation, and data manipulation. Within the Talend environment (ICOMMERCE_REPORTING), I designed Talend jobs to orchestrate the flow of data into the data warehouse (DWH), ensuring consistency and accuracy. Key tasks included:
 
 - Setting up and executing SQL scripts for creating data warehouse tables and updating existing tables.
 - Designing and implementing Talend jobs for data extraction, transformation, and loading (ETL) into the data warehouse.
 - Creating specialized Talend jobs (jGenerateCalendar.zip) to populate dimension tables with calendar data.
 
-## data source :
+## Data source 
 Six CSV files
 ![CSV files](assets/csvfiles.png)
 ## ETL process
@@ -55,7 +55,7 @@ Loading data into the target database
   ![Database](assets/ODS.png)
 - Creation of the Context table
 - Insertion of data into the Context table
-#### Step 2:
+#### Step 2
 
 Creation of a directory containing the daily data
 
@@ -83,7 +83,7 @@ Creation of a directory containing the daily data
 ![Charge ODS](assets/ChargeOds.png)
 
 
-### Part 2:
+### Part 2
 #### Step 1: Database ==> PostgreSQL
 
 - Connection to the database: COM_INGESTION_DB
@@ -122,7 +122,7 @@ This script deletes the data present in the various DWH tables
 6. Creating the main job
   ![Job charge DWH](assets/ChargeDWH.png)
 
-### Part 3: Building and scheduling the automatic execution of the main job (Job for populating the Operational Data Store and the Data Warehouse).
+### Part 3: Building and scheduling the automatic execution of the main job (Job for populating the Operational Data Store and the Data Warehouse)
 
 ![Job charge DWH](assets/JAlimentationBDD.png)
 
