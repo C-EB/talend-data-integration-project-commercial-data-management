@@ -38,7 +38,7 @@ Loading data into the target database
 ## Tools
 | Tool         | Purpose                            |
 |:------------:|:----------------------------------:|
-| Postgres     | managing ODS and QWH tables        |
+| PostgreSQL   | managing ODS and QWH tables        |
 | Talend       | ETL process                        |
 | Github       | Hosting the project documentation  |
 
