@@ -45,7 +45,7 @@ Loading data into the target database
 - Creation of the schema ODS_vente_ODS
 - Creation of the schema Params_Log
 - Creation of the various ODS tables
-  ![Database](assets/Database.png)
+  ![Database](assets/ODS.png)
 - Creation of the Context table
 - Insertion of data into the Context table
 #### Step 2:
@@ -101,6 +101,7 @@ This script selects the data inserted into the various tables
 6. script_truncate_table_dwh.sql
 This script deletes the data present in the various DWH tables
 
+![Database](assets/DWH.png)
 #### Step 2: Data Integration Process ==> Talend
 1. Opening the Talend project: ICOMMERCE_REPORTING
 2. Creating the context group DWH
