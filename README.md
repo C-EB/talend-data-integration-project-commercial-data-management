@@ -1,4 +1,4 @@
-# talend-data-integration-project-commercial-data-management
+# talend data integration project-commercial data management
 ## Objective 
 Creation of a Data Integration System in a Data Warehouse
 
